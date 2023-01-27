@@ -52,6 +52,7 @@ void CColorRectTracker::Draw(CDC* pDC)
 	CGdiObject* pTemp;
 	int nOldROP;
 	
+	
 	CPoint ptCenter = rect.CenterPoint();
 	int nCrossHairWH = rect.Width() < rect.Height() ? rect.Width()/4 : rect.Height()/4;
 	if (nCrossHairWH > 20) nCrossHairWH = 20;
